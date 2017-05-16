@@ -1,0 +1,33 @@
+{
+	"id": "48e9fc38-4349-8a47-f94c-dcc91c9942f5",
+	"name": "captcha",
+	"description": "",
+	"order": [
+		"8fe54637-78f1-4825-b027-2b4b755c98fb"
+	],
+	"folders": [],
+	"timestamp": 1494922007687,
+	"owner": "89932",
+	"public": false,
+	"requests": [
+		{
+			"id": "8fe54637-78f1-4825-b027-2b4b755c98fb",
+			"headers": "",
+			"url": "http://localhost:8080/v0.1/captcha/valid?token=797fd0f3016b4184a0682348546b2ac0&captchaCode=XUYD",
+			"preRequestScript": null,
+			"pathVariables": {},
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1494926350518,
+			"name": "查询图片验证码",
+			"description": "",
+			"collectionId": "48e9fc38-4349-8a47-f94c-dcc91c9942f5",
+			"responses": []
+		}
+	]
+}
